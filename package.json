@@ -1,0 +1,25 @@
+{
+  "name": "q-a-proxy",
+  "version": "1.0.0",
+  "description": "Proxy repo for the Q&amp;A component of our app.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilttripadvisors/q-a-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilttripadvisors/q-a-proxy/issues"
+  },
+  "homepage": "https://github.com/guilttripadvisors/q-a-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
