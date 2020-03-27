@@ -11,6 +11,7 @@ app.use('/:restaurantID', express.static(path.resolve(__dirname, '..', 'public')
 app.get('/api/questions/:restaurantID', (req, res) => {
   const { restaurantID } = req.params;
   axios.get(`http://54.70.189.204:3004/api/questions/${restaurantID}/`)
+      .then((response) => response.data)
       .then((questions) => {
         res.status(200).send(questions);
       })
