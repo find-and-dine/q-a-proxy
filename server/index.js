@@ -6,7 +6,7 @@ const axios = require('axios');
 const PHOTOS_URI = '3.17.141.223:3001';
 const MENU_URI = '35.165.82.243';
 // const REVIEWS_URI =
-const QA_URI = '54.70.189.204:3004';
+const QA_URI = '35.166.117.119:3004';
 
 
 app.use(express.json());
