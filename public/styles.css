@@ -11,6 +11,16 @@ body {
   height: auto;
 }
 
-#section1, #section2, #section3, #section4 {
+#section1 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#section2 {
+  margin-left: 14.2%;
+  margin-right: 14.2%;
+}
+
+#section4 {
   margin-left: 13%;
 }
